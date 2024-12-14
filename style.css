@@ -1,37 +1,64 @@
+/* Global Styles */
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background: #f4f4f4;
-    color: #333;
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Warna gelap untuk tema dark */
+    color: #ffffff;
 }
 header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
+    background-color: #1f1f1f;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-nav ul {
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff5733; /* Warna aksen */
+}
+header nav ul {
     list-style: none;
+    margin: 0;
     padding: 0;
+    display: flex;
 }
-nav ul li {
-    display: inline;
-    margin: 0 10px;
+header nav ul li {
+    margin: 0 15px;
 }
-nav ul li a {
-    color: #fff;
+header nav ul li a {
     text-decoration: none;
+    color: #ffffff;
 }
-main {
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #333333;
+}
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 18px;
+}
+section {
     padding: 20px;
+    margin: 10px 0;
+}
+.product-list {
+    display: flex;
+    gap: 10px;
+}
+.product-item {
+    flex: 1;
+    padding: 10px;
+    background: #1f1f1f;
+    text-align: center;
 }
 footer {
-    background: #333;
-    color: #fff;
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding: 10px;
+    background-color: #1f1f1f;
+    color: #ffffff;
 }
